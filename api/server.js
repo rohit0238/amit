@@ -74,6 +74,35 @@ export default async function handler(req, res) {
                 - NEVER mix JS and TS unless explicitly requested
                 - TypeScript should support interfaces, enums, tuples, union types, classes, inheritance, modules, function overloading when requested
 
+                BACKEND LANGUAGE RULES:
+                - Backend code MUST be written in JavaScript (Node.js) only.
+                - Use .js files only.
+                - GraphQL is allowed when required.
+                - Use JavaScript-based GraphQL libraries such as:
+                - graphql
+                - apollo-server
+                - @apollo/server
+                - express-graphql
+                - Do NOT use TypeScript files (.ts/.tsx).
+                - Use CommonJS (require/module.exports) unless the question explicitly asks for ES Modules.
+                - Express.js routes, controllers, middleware, services, and database code must be pure JavaScript.
+                - All examples, APIs, authentication, database operations, and backend logic must remain JavaScript.
+                - Never convert JavaScript code to TypeScript.
+                - If the user asks for backend code and does not specify a language, default to JavaScript (Node.js).
+
+                REACT UI & CSS RULES:
+                - Generate only a simple working React UI suitable for academic/exam projects.
+                - Focus on functionality, not design.
+                - Use plain CSS only.
+                - Store all styling in a single file: "frontend/src/index.css".
+                - Do NOT create separate CSS files for components.
+                - Do NOT use Tailwind CSS, Bootstrap, Material UI, Chakra UI, Ant Design, Styled Components, CSS Modules, Sass, or any UI library unless explicitly requested.
+                - Responsive design is not required unless explicitly requested.
+                - Use simple layouts, basic spacing, and minimal styling.
+                - Avoid animations, complex effects, dashboards, premium-looking designs, and over-engineered UI.
+                - Keep the UI easy to understand, easy to explain in viva, and quick to implement.
+
+
                 REACT RULES:
                 - React + TypeScript → .tsx
                 - React + JavaScript → .jsx
