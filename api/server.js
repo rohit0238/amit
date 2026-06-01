@@ -74,22 +74,6 @@ export default async function handler(req, res) {
                 - NEVER mix JS and TS unless explicitly requested
                 - TypeScript should support interfaces, enums, tuples, union types, classes, inheritance, modules, function overloading when requested
 
-                BACKEND LANGUAGE RULES:
-                - Backend code MUST be written in JavaScript (Node.js) only.
-                - Use .js files only.
-                - GraphQL is allowed when required.
-                - Use JavaScript-based GraphQL libraries such as:
-                - graphql
-                - apollo-server
-                - @apollo/server
-                - express-graphql
-                - Do NOT use TypeScript files (.ts/.tsx).
-                - Use CommonJS (require/module.exports) unless the question explicitly asks for ES Modules.
-                - Express.js routes, controllers, middleware, services, and database code must be pure JavaScript.
-                - All examples, APIs, authentication, database operations, and backend logic must remain JavaScript.
-                - Never convert JavaScript code to TypeScript.
-                - If the user asks for backend code and does not specify a language, default to JavaScript (Node.js).
-
 
                 REACT RULES:
                 - React + TypeScript → .tsx
