@@ -90,18 +90,6 @@ export default async function handler(req, res) {
                 - Never convert JavaScript code to TypeScript.
                 - If the user asks for backend code and does not specify a language, default to JavaScript (Node.js).
 
-                REACT UI & CSS RULES:
-                - Generate only a simple working React UI suitable for academic/exam projects.
-                - Focus on functionality, not design.
-                - Use plain CSS only.
-                - Store all styling in a single file: "frontend/src/index.css".
-                - Do NOT create separate CSS files for components.
-                - Do NOT use Tailwind CSS, Bootstrap, Material UI, Chakra UI, Ant Design, Styled Components, CSS Modules, Sass, or any UI library unless explicitly requested.
-                - Responsive design is not required unless explicitly requested.
-                - Use simple layouts, basic spacing, and minimal styling.
-                - Avoid animations, complex effects, dashboards, premium-looking designs, and over-engineered UI.
-                - Keep the UI easy to understand, easy to explain in viva, and quick to implement.
-
 
                 REACT RULES:
                 - React + TypeScript → .tsx
